@@ -35,7 +35,7 @@ public class EntryPoint {
     @Produces(MediaType.TEXT_PLAIN)
     public String testDeployment() {
         
-        String response = " ";
+        String response = "";
         String restURL = "http://192.168.1.143:8080/entry-point/test";
             
         try {
